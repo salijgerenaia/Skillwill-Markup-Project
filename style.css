@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-style: normal;
+  padding: 30px;
+  width: 1415px;
+}
+
+.whitepace-logo {
+  height: 30px;
+  width: 144px;
+  margin-left: 150px;
+}
+
+.header-section {
+  display: flex;
+  gap: 30px;
+}
+
+.section {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #4f9cf9;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+.navigation-links:link,
+.navigation-links:visited {
+  text-decoration: none;
+  color: #4f9cf9;
+}
+.main {
+  display: flex;
+}
+.main a {
+  margin-right: 25px;
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.login:link,
+.login:visited {
+  display: inline-block;
+  color: black;
+  border-radius: 9px;
+  background-color: #ffe492;
+  padding: 16px 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.tryfree:link,
+.tryfree:visited {
+  display: inline-block;
+  padding: 16px 24px;
+  color: #fff;
+  background: #4f9cf9;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+#menu-icon {
+  font-size: 35px;
+  cursor: pointer;
+  z-index: 10001;
+  display: none;
+}
+
+
+
+
+.getmore {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  color: #4f9cf9;
+  margin-left: 150px;
+  padding-top: 150px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 656px;
+  font-size: 64px;
+  line-height: 77px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.free {
+  display: flex;
+  padding-left: 150px;
+  font-family: inter;
+}
+.free a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  line-height: 20px;
+  border-radius: 8px;
+  background: #4f9cf9;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
+  padding-left: 1000px;
+  position: relative;
+  bottom: 300px;
+  left: 100px;
+  width: 200px;
+  height: 350px;
+}
+
+.project {
+  margin-left: 150px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  color: black;
+}
+
+.project2 {
+  font-size: 72px;
+  background-image: url(images/Vector.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.getstarted {
+  display: flex;
+  padding-left: 150px;
+  font-family: inter;
+}
+.getstarted a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  line-height: 20px;
+  border-radius: 8px;
+  background: #4f9cf9;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.pdf {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.img2 {
+  display: flex;
+  justify-content: center;
+  padding-left: 1000px;
+  position: relative;
+  bottom: 350px;
+  left: 100px;
+  width: 200px;
+  height: 300px;
+}
+
+.img3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 250px;
+  bottom: 250px;
+  width: 350px;
+  height: 550px;
+}
+
+.together {
+  font-family: inter;
+}
+
+.headerwork {
+  padding-left: 1000px;
+  position: relative;
+  bottom: 800px;
+  left: 25px;
+  width: 200px;
+  height: 300px;
+  white-space: nowrap;
+  
+ 
+}
+
+.notes {
+  font-size: 18px;
+  padding-left: 1000px;
+  position: relative;
+  bottom: 930px;
+  right: 200px;
+  width: 200px;
+  height: 300px;
+  white-space: nowrap;
+}
+
+.try {
+  display: flex;
+  padding-left: 150px;
+  font-family: inter;
+}
+
+.try a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  bottom: 900px;
+  padding: 20px;
+  line-height: 20px;
+  border-radius: 8px;
+  background: #4f9cf9;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.customize {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 140px 220px;
+  gap: 98px;
+
+  position: absolute;
+  height: 759px;
+  margin-right: -1px;
+  margin-top: 2509px;
+}
+
+.customize-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 98px;
+  width: 1481px;
+  height: 479px;
+}

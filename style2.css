@@ -1,0 +1,531 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.customize {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 140px 220px; */
+  padding-left: 0;
+  padding-bottom: 0;
+  gap: 98px;
+
+  position: absolute;
+  /* height: 759px; */
+  /*margin-right: -1px;*/
+  margin-top: -909px;
+}
+
+.customize-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 98px;
+
+  width: 1215;
+  height: 479px;
+}
+
+.customize-heading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+
+  width: 697px;
+  height: 381px;
+}
+
+.customize-txt-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  isolation: isolate;
+
+  width: 697px;
+  height: 258px;
+}
+
+.cusotmize-txt-block-h1 {
+  position: absolute;
+  width: 580px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  letter-spacing: -0.02em;
+
+  color: #212529;
+}
+
+.cusotmize-txt-block-p {
+  width: 580px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+
+  color: #212529;
+}
+
+.customize-yellow-element-img {
+  width: 220px;
+  height: 28.2px;
+  margin-top: 140px;
+  margin-left: 150px;
+}
+
+.customize-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 10px;
+
+  width: 176px;
+  height: 63px;
+  margin-top: 60px;
+
+  background: #4f9cf9;
+  border-radius: 6px;
+  font-family: inter;
+}
+
+.customize-btn a:link {
+  color: #f7f7ee;
+}
+
+.customize-btn a:visited {
+  color: #f7f7ee;
+}
+
+.customize-btn a:hover {
+  color: #f7f7ee;
+}
+
+.customize-btn a:active {
+  color: #f7f7ee;
+}
+
+.customize-btn a:link {
+  text-decoration: none;
+}
+
+.customize-btn a:visited {
+  text-decoration: none;
+}
+
+.customize-btner a:hover {
+  text-decoration: none;
+}
+
+.customize-btn a:active {
+  text-decoration: none;
+}
+
+/* On to the next section with prices*/
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 140px 220px; */
+  gap: 60px;
+
+  position: absolute;
+  /* height: 1272px; */
+  margin-right: -1px;
+  /* margin-top: 3268px; */
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 60px;
+
+  width: 1481px;
+  height: 992px;
+  margin-top: 00px;
+  /* position: absolute; */
+}
+
+.plan-heading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  isolation: isolate;
+
+  width: 1481px;
+  height: 171px;
+}
+
+.plan-heading h1 {
+  position: absolute;
+
+  width: 1481px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 87px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #212529;
+}
+
+.plan-heading p {
+  /* width: 920px; */
+  height: 60px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #212529;
+}
+
+.Yellow {
+  position: relative;
+  height: 30.111492156982422px;
+  width: 318.7454833984375px;
+  margin-left: 300px;
+  margin-top: 60px;
+  border-radius: 0px;
+}
+
+.price_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+
+  width: 1481px;
+  height: 761px;
+}
+
+/* here we style the middle block */
+.price_col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 44px;
+  gap: 25px;
+
+  width: 472.33px;
+  height: 761px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.text-block-02 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+
+  width: 384.33px;
+  height: 153px;
+}
+
+.personal {
+  width: 384.33px;
+  height: 36px;
+
+  font-family: inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #043873;
+}
+
+.dollar2 {
+  width: 384.33px;
+  height: 44px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #043873;
+}
+
+.capture2 {
+  width: 384.33px;
+  height: 23px;
+
+  font-family: inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+
+  letter-spacing: -0.02em;
+
+  color: #043873;
+}
+
+.bulletpoint2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 28px;
+
+  width: 384.33px;
+  height: 347px;
+  list-style-image: url(/images/Blue_Icon.png);
+}
+
+.price_col2 li {
+  width: 347.33px;
+  height: 46px;
+
+  font-family: inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+
+  letter-spacing: -0.02em;
+
+  color: #043873;
+}
+
+.button2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+
+  width: 166px;
+  height: 51px;
+
+  background: #4f9cf9;
+  border-radius: 8px;
+  border-color: #4f9cf9;
+}
+
+.button2:link {
+  color: #f7f7ee;
+}
+
+.button2:visited {
+  color: #f7f7ee;
+}
+
+.button2:hover {
+  color: #f7f7ee;
+}
+
+.button2:active {
+  color: #f7f7ee;
+}
+
+.button2:link {
+  text-decoration: none;
+}
+
+.button2:visited {
+  text-decoration: none;
+}
+
+.button2:hover {
+  text-decoration: none;
+}
+
+.button2:active {
+  text-decoration: none;
+}
+
+/* this is same for firs and third column */ /* here we style firs and third block together*/
+.price_col {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 44px;
+  gap: 25px;
+
+  width: 472.33px;
+  height: 634px;
+
+  background: #ffffff;
+  border: 1px solid #ffe492;
+  border-radius: 10px;
+}
+
+.text-block-01 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 25px;
+
+  width: 384.33px;
+  height: 153px;
+}
+
+.price-free {
+  width: 384.33px;
+  height: 36px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #212529;
+}
+
+.dollar {
+  width: 384.33px;
+  height: 44px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+
+  letter-spacing: -0.02em;
+}
+
+.capture {
+  width: 384.33px;
+  height: 23px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+
+  letter-spacing: -0.02em;
+
+  color: #212529;
+}
+
+.bulletpoint {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 28px;
+
+  width: 384.33px;
+  height: 330px;
+  list-style-image: url(/images/Icon.png);
+}
+.button1 {
+  font-family: inter;
+  white-space: nowrap;
+}
+
+.button2 {
+  font-family: inter;
+  white-space: nowrap;
+}
+
+.price_col li {
+  width: 347.33px;
+  height: 40px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+
+  color: #212529;
+ 
+}
+
+.button1 {
+  /* box-sizing: border-box; */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 40px;
+
+  width: 166px;
+  height: 51px;
+
+  background: #ffffff;
+  border: 1px solid #ffe492;
+  border-radius: 8px;
+}
+
+.button1:link {
+  color: #212529;
+}
+
+.button1:visited {
+  color: #212529;
+}
+
+.button1:hover {
+  color: #212529;
+}
+
+.button1:active {
+  color: #212529;
+}
+
+.button1:link {
+  text-decoration: none;
+}
+
+.button1:visited {
+  text-decoration: none;
+}
+
+.button1:hover {
+  text-decoration: none;
+}
+
+.button1:active {
+  text-decoration: none;
+}
